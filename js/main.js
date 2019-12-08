@@ -10,13 +10,7 @@ doc.ready(function(){
 
 	$(window).scrollTop(0);
 
-	var typed = new Typed(".mytext", {
-	  strings: ["Stylist", "Bold", "Handsom"],
-	  smartBackspace: true, // Default value
-	  loop:true,
-	  backDelay: 1000,
-	  typeSpeed: 50
-	});
+	
 
 	$('.navbar-nav').onePageNav({
 		currentClass: 'active'
